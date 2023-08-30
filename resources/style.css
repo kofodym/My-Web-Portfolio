@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 20px 10px 30px;
+  background-color: rgb(53 146 239);
+}
+
+header h2 {
+  color: rgb(251, 210, 156);
+  font-weight: 900;
+  text-shadow: 1px 1px 3px rgb(27, 27, 27);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  min-width: 50%;
+}
+ul {
+  list-style-type: none;
+  /* background-color: #0d3451; */
+  background-color: rgb(251, 210, 156);
+
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border: 0.5px;
+  border-radius: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: #02376d;
+  padding: 8px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  font-variant-caps: all-small-caps;
+  font-weight: 550;
+}
+
+li a:hover,
+li a:focus {
+  font-weight: 650;
+  background-color: rgb(2, 5, 67);
+  color: rgb(251, 210, 156);
+}
+img {
+  display: block;
+}
+
+.hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  width: 100vw;
+  height: 80vh;
+  border-bottom: 2px solid black;
+}
+
+.bg_opacity {
+  opacity: 70%;
+}
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0px 40px 20px 40px;
+  width: 50vw;
+  height: 80vh;
+  background-color: rgb(251, 210, 156);
+  background-image: url(./resources/images/code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  /* background-color: #300d51; */
+  /* padding-left: 0px;
+  margin-left: 0px; */
+
+  text-shadow: 1px 1px 3px rgba(255, 252, 252, 0.298);
+  font-weight: 550;
+}
+
+.profile_name {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.hero_right {
+  width: 50vw;
+  height: 80vh;
+}
+.profile_pic img {
+  width: 60%;
+
+  min-width: 100px;
+  height: auto;
+  border: 5px double gray;
+  border-radius: 50%;
+}
+
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: black;
+  color:white;
+  height: 10vh;
+}
